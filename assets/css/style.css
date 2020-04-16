@@ -50,8 +50,12 @@ align-content: flex-end;
  .progress-bar{
    
    background-color:white;
-    
-
+ }   
+.center
+{
+  align-items: center;
+  display: contents;
+}
  }
  .diviseur
  {
