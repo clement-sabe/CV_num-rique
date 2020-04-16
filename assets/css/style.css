@@ -1,0 +1,68 @@
+header
+{
+  background-color: #4A5890;
+  width: 100%;
+}
+.#navbarmenu
+{
+  background-color: #4A5890;
+}
+
+}
+.gauche{
+  display: flex;
+  background-color:#8C8C8C;
+  height: auto;
+  width: 100%;
+  
+
+}
+.milieu{
+  background-color:#8C8C8C ;
+  padding-top: 200px;
+  text-align: center;
+  
+  
+}
+.droite{
+  background-color:#4A5890 ;
+}
+
+.row
+{
+  background-color: #4A5890;
+  
+
+    
+
+.btn
+{
+background-color: #4A5890;
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+
+}
+.progress{
+
+  background-color: white;
+}
+ .progress-bar{
+   
+   background-color:white;
+    
+
+ }
+ .diviseur
+ {
+  width: 100px;
+  height: 2px;
+  background: white;
+  margin: 0 auto 20px;
+
+ }
+ 
+ 
+ .bg-skill{
+   background-color: #4A5890;
+ }
