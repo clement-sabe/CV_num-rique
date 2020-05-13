@@ -4,16 +4,25 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
     height: auto; */
-html,
-body {
-    max-width: 100vw;
-    overflow-x: hidden;
-    height: auto;
-}
-body{
+* {
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: auto;
+  font-family: 'Fredericka the Great', cursive;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #4A5890;
   width: 100%;
@@ -23,18 +32,26 @@ header {
   background-color: #4A5890;
 }
 
-h3{
+.profile-picture {
+  margin: auto;
+}
+
+h3 {
+  margin-right: 75px;
   text-align: center;
   padding: 1em;
   margin-top: 4em;
   margin-bottom: 2em;
-  
+
 
 }
- /* icone qui tourne */
- .fa{
-  transform: scaleX(-1);}
-  /* animation: spin-reverse 2s infinite linear;
+
+/* icone qui tourne */
+.fa {
+  transform: scaleX(-1);
+}
+
+/* animation: spin-reverse 2s infinite linear;
   }
   @keyframes spin-reverse {
   0% {
@@ -49,6 +66,7 @@ h3{
   display: flex;
   height: auto;
   width: 100%;
+  margin: auto;
 
 
 }
@@ -58,12 +76,14 @@ h3{
   padding-top: 200px;
   text-align: center;
   font-size: 2em;
+  
 
 
 }
 
 .droite {
   background-color: #4A5890;
+
 }
 
 .row {
@@ -73,14 +93,16 @@ h3{
 
 /* button */
 .button {
+  padding: 2em;
   margin-top: 100px;
   margin-right: 10px;
-	color: #4A5890;
-	box-shadow: #4A5890 0 0px 0px 2px inset;
+  color: #4A5890;
+  box-shadow: #4A5890 0 0px 0px 2px inset;
 }
+
 .button:hover {
-	color: rgba(255, 255, 255, 0.85);
-	box-shadow:#4A5890 0 0px 0px 40px inset;
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: #4A5890 0 0px 0px 40px inset;
 }
 
 
@@ -158,12 +180,6 @@ a {
   text-decoration: none
 }
 
-h4 {
-  text-align: center;
-  margin: 30px 0;
-  color: #444
-  text-dec
-}
 
 .main-timeline {
   position: relative
@@ -340,7 +356,7 @@ h4 {
   .main-timeline .timeline-content {
     margin-top: 75px
   }
-} 
+}
 
 @media only screen and (max-width:990px) {
   .main-timeline .timeline {
@@ -906,10 +922,11 @@ time {
     border-color: transparent white transparent transparent;
   }
 }
-@media screen and (max-width:500px){
+
+@media screen and (max-width:500px) {
   .timeline ul li div {
     width: 220px;
-}
+  }
 }
 
 
@@ -917,12 +934,15 @@ time {
 
 .attentions section span {
   background-color: white;
-  display:inline-block;
-  width:15px;
-  height:15px;
-  background:#bbb;
-  border-radius:15px;
-  float:right;
-  margin:0 1px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #bbb;
+  border-radius: 15px;
+  float: right;
+  margin: 0 1px;
 }
-.attentionss section span.full {background:#ff5335;}
+
+.attentionss section span.full {
+  background: #ff5335;
+}
