@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/libs/css/bootstrap.css">
     <link rel="stylesheet" href="assets/libs/css/fontawesome.css">
 
-     <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <header>
@@ -32,62 +32,230 @@
     <div class="container-fluid">
         <div class="row ">
             <div class="col-3 profile-picture p-0 m-0""> <img src=" assets/img/photo_cv.jpg" alt="clément"></div>
-            <div class="milieu col-6 text-center text-white mb-50">"Jeune développeur passionné de nouvelles
+            <div class="milieu col-6 text-center text-white mb-50 size">"Jeune développeur passionné de nouvelles
                 technologies, à la recherche d’un emploi me
                 permettant de mettre en pratique mes
                 connaissances et approfondir mes compétences."
-                <button type="button" class="btn">Télécharger CV</button>
+               <div> <button id="button" type="button" class="button btn p-1 ">Télécharger CV</button>
+               </div>
             </div>
+
 
             <div class="droite col-3 ">
                 <div class="float-right mr-4">
                     <h3 class="name mt-5 mb-5 text-white ">Clément Sabé</h3>
-                    <p class="p1"> 37 allée du Général Martin <br> 80650 VIGNACOURT</p>
+                    <p class="p1 text-white"> 37 allée du Général Martin <br> 80650 VIGNACOURT</p>
                 </div>
             </div>
-            <section class="bg-primary w-100">
-                <div class="container">
+            <section class="skill w-100 ">
+                <div class="divider-white"></div>
+                <div class="container-skill ">
                     <div>
                         <div class="col-12">
-                            <h2 class="d-flex justify-content-center text-center text-white p-3">Compétences</h2>
+                            <h2 class="d-flex justify-content-center text-center text-white p-2 mb-5">Compétences</h2>
                         </div>
                     </div>
                 </div>
-            </section  class="row">
-            <section class="h-100 bg-primary w-100">
+            </section class="row">
+            <section class="h-100  w-100">
                 <div class="container justify-content-center">
-                    <div class="row bg-primary">
-                        <div class="col-12">
+                    <div class="row ">
+                        <div class="col-6">
                             <div class="progress mb-3" style="height: 40px;">
-                                <div class="progress-bar html" role="progressbar"  aria-valuemin="0"
-                                    aria-valuemax="100" style=" background: black; width: 60%;">
-                                    <h5 style="align-items: center; display: contents;">HTML 60%</h5>
+                                <div class="progress-bar html" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                    style=" background:#8C8C8C; width: 80%;">
+                                    <h5 style="align-items: center; display: contents;">HTML 80%</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-6">
                             <div class="progress mb-3" style="height: 40px;">
-                                <div class="progress-bar html" role="progressbar"  aria-valuemin="0"
-                                    aria-valuemax="100" style=" background: black; width: 60%;">
-                                    <h5 style="align-items: center; display: contents;">HTML 60%</h5>
+                                <div class="progress-bar css" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                    style=" background:#8C8C8C; width: 55%;">
+                                    <h5 style="align-items: center; display: contents;">CSS 55%</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        
+                <section class="h-100 w-100 mt-3">
+                    <div class="container justify-content-center mt-10">
+                        <div class="row ">
+                            <div class="col-6">
+                                <div class="progress mb-3" style="height: 40px;">
+                                    <div class="progress-bar java" role="progressbar" aria-valuemin="0"
+                                        aria-valuemax="100" style=" background: #8C8C8C; width: 30%;">
+                                        <h5 style="align-items: center; display: contents;">JavaScript 30%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="progress mb-3" style="height: 40px;">
+                                    <div class="progress-bar boot" role="progressbar" aria-valuemin="0"
+                                        aria-valuemax="100" style=" background: #8C8C8C; width: 60%;">
+                                        <h5 style="align-items: center; display: contents;">BootStrap 65%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="h-100 w-100 mt-3 mb-5 ">
+                    <div class="container justify-content-center">
+                        <div class="row ">
+                            <div class="col-6">
+                                <div class="progress mb-3" style="height: 40px;">
+                                    <div class="progress-bar git" role="progressbar" aria-valuemin="0"
+                                        aria-valuemax="100" style=" background: #8C8C8C; width: 70%;">
+                                        <h5 style="align-items: center; display: contents;">GIT 70%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        </section>
+
+        <section class="experiences">
+            <div class="divider-blue mb-2 mt-5"></div>
+            <div class="container-experience">
+                <h2 class="exp-text d-flex justify-content-center text-center p-3 ">Expériences professionnelles</h2>
+
+
+                <div class="row bg-white">
+                    <div class="col-md-12">
+                        <div class="main-timeline4 p-5 bg-white">
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2020</span>
+                                    <div class="inner-content">
+                                        <h3 class="title"> Formation Dévelopeur Web (DWWM)</h3>
+                                        <p class="description">
+                                            Début d'une formation de Dévelopeur Web et Web Mobile au centre de formation
+                                            "La Manu" à Amiens.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2015</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Boulanger-Pâtissier</h3>
+                                        <p class="descriptiong">
+                                            Boulanger chez Monsieur Christophe BARBIER, boulangerie Le Dôme à Amiens.
+                                            fabrication de tous type de pains, viennoiseries, pâtisseries.
+                                            cuissons et livraison.
+
+                                            (Arrêt en Septembre 2019 suite a un licenciement économique suivi d'une
+                                            RQTH.)
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2009</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Boulanger</h3>
+                                        <p class="description">
+                                            Boulanger à Intermarché route d’Abbeville à AMIENS. <br>
+                                            Fabrications, cuissons, et mises en rayon des produits
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2009</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Employé libre service</h3>
+                                        <p class="descriptiong">
+                                            Employé libre-service dans le magasin Aldi à Camon. <br>Mise en rayon,
+                                            caisse, entretien, accueil des clients.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section class="educ w-100 p-2 ">
+        <div class="divider-white "></div>
+        <div class="container-educ ">
+            <div>
+                <div class="col-12">
+                    <h2 class="d-flex justify-content-center text-center text-white p-2 mb-5">Education</h2>
+                </div>
+            </div>
+        </div>
+    </section class="row">
+
+    <section class="intro">
+        <div class="container">
 
         </div>
+    </section>
+
+    <section class="timeline">
+        <ul>
+            <li>
+                <div>
+                    <time class="time-educ">2006-2008</time>
+                    <p class="p-educ">BP Boulanger à l'IREAM d'Amiens. <br> Apprenti Boulanger chez Monsieur Christophe
+                        BARBIER à Amiens.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time class="time-educ">2005-2006</time>
+                    <p class="p-educ"> CAP pâtissier à l' IREAM d' AMIENS. <br> Apprenti pâtissier glacier chocolatier
+                        confiseur
+                        chez Monsieur Dominique MULHAUSER à AMIENS.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time class="time-educ">2003-2005</time>
+                    <p class="p-educ"> CAP boulanger à l' IREAM d' Amiens. <br>Apprenti boulanger
+                        chez Monsieur Bernard PETIT à Camon.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="experiences">
+        <div class="divider-blue mb-2 mt-5"></div>
+        <div class="container-experience">
+            <h2 class="exp-text d-flex justify-content-center text-center p-3 ">Port-folio
+            </h2>
+        </div>
+    </section>
+    <section class="educ w-100 p-2 ">
+        <div class="divider-white "></div>
+        <div class="container-educ ">
+            <div>
+                <div class="col-12">
+                    <h2 class="d-flex justify-content-center text-center text-white p-2 mb-5">Loisirs & Hobbies</h2>
+                </div>
+            </div>
+        </div>
+    </section class="row">
 
 
 
 
+    <script src="assets/libs/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/libs/js/bootstrap.bundle.min.js"></script>
 
-        <script src="assets/libs/js/jquery-3.4.1.min.js"></script>
-        <script src="assets/libs/js/bootstrap.bundle.min.js"></script>
-
-        <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
