@@ -1,9 +1,4 @@
-/* code pour ne pas avoir de marge */
-/* html,
-body {
-    max-width: 100vw;
-    overflow-x: hidden;
-    height: auto; */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +9,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   height: auto;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Economica', sans-serif;
 
 }
 
@@ -28,10 +23,12 @@ header {
   width: 100%;
 }
 
-.#navbarmenu {
+.navbarmenu {
   background-color: #4A5890;
 }
-
+.nav-link{
+  font-size: 1.5em;
+}
 .profile-picture {
   margin: auto;
 }
@@ -930,19 +927,23 @@ time {
 }
 
 
-/* habilités */
+/* loisirs & hobbies */
 
-.attentions section span {
-  background-color: white;
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: #bbb;
-  border-radius: 15px;
-  float: right;
-  margin: 0 1px;
+/* port-folio*/
+
+.fa-github {
+  color: black;
+  font-size: 100px;
+ 
+    
+  
 }
 
-.attentionss section span.full {
-  background: #ff5335;
+.fa-linkedin {
+  color: #007BB6;
+  font-size: 100px;
+
+    
+  
+  
 }
