@@ -73,11 +73,15 @@ h3 {
   padding-top: 200px;
   text-align: center;
   font-size: 2em;
-  
-
-
 }
 
+.p1,.p2,.p3,.p4,.p5,.p6{
+  font-size: 1.5em;
+}
+.name{
+  font-size: 1.8em;
+  text-decoration: underline;
+}
 .droite {
   background-color: #4A5890;
 
