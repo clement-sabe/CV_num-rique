@@ -961,7 +961,7 @@ time {
 .fa-github {
   color: black;
   font-size: 100px;
-
+margin-top:15px;
 
 
 }
@@ -969,6 +969,8 @@ time {
 .fa-linkedin {
   color: #007BB6;
   font-size: 100px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
  .hobbies_img {
