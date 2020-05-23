@@ -79,6 +79,7 @@ h3 {
   height: auto;
   width: 100%;
   margin: auto;
+  background-size: contain
 
 
 }
@@ -970,20 +971,21 @@ time {
   font-size: 100px;
 }
 
-.hobbies_img {
-  width: 150px;
-  height: 150px;
+ .hobbies_img {
+  width: 100px;
+  height: 100px;
 
-}
+} 
 
 .hobbies_pictures {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
 }
 
 .describhobbies {
-  font-size: 1.5em;
+  font: size 20px;
   color: #fff;
 }
 
@@ -992,18 +994,16 @@ time {
     display: none;
   }
 
-  .hobbies_img {
-    width: 100px;
-    height: 100px;
+  .ihobbies {
+    font-size: 50px;
     margin: 10px;
-  }
+  } 
 
 }
 
 @media screen and (min-width: 650px) {
-  .hobbies_img {
-    width: 100px;
-    height: 100px;
+  .ihobbies {
+    font-size: 100px;
   }
 
   .footer-copyright {
@@ -1011,4 +1011,7 @@ time {
     font-size: 1.5em;
     color: #4A5890;
 
+  }
+  .ihobbies{
+    font-size: 100px;
   }
