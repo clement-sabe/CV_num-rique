@@ -978,7 +978,9 @@ margin-top:15px;
   height: 100px;
 
 } 
-
+.ihobbies{
+  
+}
 .hobbies_pictures {
   display: flex;
   flex-wrap: wrap;
